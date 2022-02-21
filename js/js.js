@@ -10,4 +10,4 @@ let km = prompt("Quanti km vuoi percorrere?", "KM");
 
 if (isNaN(km) && km <= 0) {
     prompt("Perfavore inserire numero km ", "KM");
-    }
+}
