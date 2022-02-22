@@ -23,3 +23,5 @@ if (eta < 18) {
 } else {
     window.alert("Nessuno sconto applicato. Il totale da pagare è: Totale:" + totale + " euro");
 }
+
+document.getElementById('Tot').innerHTML = 'Il totale è' + totale.toFixed(2);
